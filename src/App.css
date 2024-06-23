@@ -1,38 +1,351 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  
 }
+.img{
+  min-height: 60vh;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.third-page{
+  min-height: 96vh;
+  width: 49%;
+  border: 1px solid #CECECE;
+  
+  margin-left: 8%;
+  margin-top: 5%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.the{
+  margin-left: 3%;
+}
+.sub-block{
+  padding: 17px;
+}
+.button-add{
+  background-color: red;
   color: white;
+  
+
+  width: 211px;
+height: 52px;
+ 
+font-size: 16px;
+font-weight: 600;
+ 
+ 
+margin-top: 4%;
+border-width: 0;
 }
 
-.App-link {
-  color: #61dafb;
+ 
+.icon{
+  position: fixed;
+  height: 50px;
+  left: -30px;
+  padding: 12px 1111px 11.77px 120px;
+  border: 0px 0px 1px 0px;
+  
+  background: #1C1C1C33;
+  border-bottom: 1px solid #FF777766
 }
+.sub-heading{
+  color: #FFFFFF;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 112px;
+  top: 243px;
+  left: 120px;
+  font-size: 44px;
+  font-weight: 600;
+  
+  text-align: left;
+  margin-left: 8%;
+  padding-top: 16%;  
 }
+.first-page{
+  min-height:90vh;
+  background-size: cover;
+  min-width: 1440px;
+
+}
+.button{
+  margin-left: 8%;
+
+  width: 211px;
+height: 52px;
+
+font-size: 16px;
+font-weight: 600;
+color: #FE0000;
+margin-top: 4%;
+margin-bottom: 5%;
+
+
+}
+.about{
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+color: #F27121;
+text-shadow:2px 2px #ECE14C;
+}
+.para{
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+ min-width: 72%;
+
+}
+.maxw{
+  min-width: 100%;
+  margin-top: 3%;
+}
+.our-product{
+  width: 100%;
+  
+}
+.sub-para{
+
+font-size: 20px;
+font-weight: 600;
+line-height: 40px;
+text-align: center;
+
+}
+.line{ 
+  margin-left: 10%;
+  margin-right: 2%;
+}
+.first-line-about{
+  margin-left: 9%;
+  margin-right: 8%;
+}
+.line-our-product{
+  margin-left: 9%;
+  margin-right: 4%; 
+}
+.second-line-about{
+  padding-left:8%;
+}
+.second-our-product{
+  padding-left: 4%;
+}
+ 
+ 
+ 
+.row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+ 
+.second-page{
+  margin-top: 6%;
+  min-width: 100%;
+}
+.margin{
+  margin: 2%;
+}
+.crackers{
+  padding-top: 5%;
+  margin-left: 5%;
+}
+.last{
+  border: 1px solid #CECECE;
+  background: #25A769;
+  
+  min-width: 117vw;
+  min-height: 20vh;
+  
+
+}
+.yellow-line{
+  
+  margin-top: 11%;
+  min-width: 117vw;
+  background: #25A769;
+  border: 15px solid #25A769;
+  border-top: 0px;
+  border-left: 0;
+  border-right: 0;
+}
+.last-design{
+  margin-left: 8%;
+  min-width: 101%;
+  margin-top: 4%;
+}
+.contact{
+  background-color: #25A769;
+  min-height: 22vh;
+  min-width: 114%;
+  margin-top: 5%;
+}
+.flower{
+  margin-top: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.Follow-us-on{
+  
+font-size: 20px;
+font-weight: 700;
+line-height: 24.32px;
+text-align: left;
+color: #ECE14C;
+
+
+}
+.row1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons{
+  margin-top: 2%;
+}
+.visible{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+ 
+@media (max-width:600px) {
+  .yellow-line{
+  
+    margin-top: 11%;
+    min-width: 50vw;
+    background: #25A769;
+    border: 15px solid #25A769;
+    border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+  }
+  .first-page{
+    min-height:50vh;
+    min-width: 100vw;
+  
+  }
+  .sub-heading{
+  font-size: 20px;
+  margin-left: 5%;
+  padding-top: 5%; 
+  margin-bottom: 1%; 
+
+  }
+  .icon{
+    position: fixed;
+    height: 50px;
+    left: -30px;
+    padding: 12px 1111px 11.77px 120px;
+    border: 0px 0px 1px 0px;
+    
+    background: #1C1C1C33;
+    border-bottom: 1px solid #FF777766
+  }
+  .button{
+    margin-left: 5%;
+  
+    width: 200px;
+  height: 40px;
+  
+  font-size: 14px;
+  font-weight: 600;
+  color: #FE0000;
+  margin-top: 1px;
+  margin-bottom: 5%;
+  }
+
+
+.second-page{
+  margin-top: 26%;
+  min-width: 100%;
+  
+}
+  .about{
+    font-size: 20px;
+  }
+  .first-line-about{
+    min-width: 30vw;
+    
+  }
+  .second-line-about{
+    min-width: 25vw;
+     
+     
+     
+  }
+  
+  .line{ 
+    min-width: 10vw;
+    margin-left: 3px;
+  }
+   
+    .sub-para{
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    
+    }
+    .line-our-product{
+       
+      min-width: 30vw;
+      
+    }
+    .second-our-product{
+      min-width: 10vw;
+    }
+    .maxw{
+      min-width: 100%;
+      margin-top: 23%;
+    }
+    .third-page{
+      
+      min-width: 150vw;
+      margin-left: 23%;
+      margin-top: 15%;
+      
+    }
+    .last-design-none{
+      margin-left:8%;
+  min-width: 31%;
+  margin-top: 4%;
+
+    }
+    .contact{
+      background-color: #25A769;
+      min-height: 22vh;
+      min-width: 100vw;
+      margin-top: 5%;
+    }
+    .none{
+      display: none;
+       
+    }
+    .contact{
+      
+    }
+    .crackers{
+      min-width: 10vw;
+    margin-left: 3px;
+       
+    }
+    .img{
+      min-height: 100px;
+      background-size: cover;
+    }
+    .third-page{
+      min-height: 9vh;
+      width: 9vw;
+      border: 1px solid #CECECE;
+      
+      margin-left: 1%;
+      margin-top: 2%;
+    }
+    
+
+  
+}
+  
